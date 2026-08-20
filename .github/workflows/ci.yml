@@ -48,7 +48,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install --yes ffmpeg
     
-      - name: Verify Phase 0
+      - name: Verify repository
         run: make verify
 
       - name: Prune uv cache for CI
