@@ -1,0 +1,27 @@
+initial_experiment_videos: 30
+adaptive_allocation_enabled: false
+arms:
+  FOOD:
+    target_count: 10
+    formats:
+      - PICK_ONE
+      - GUESS_THE_FOOD
+      - PRICE_COMPARISON
+      - PORTION_COMPARISON
+      - NUTRIENT_REVEAL
+  COOKING:
+    target_count: 10
+    formats:
+      - THREE_INGREDIENT_CHALLENGE
+      - FOOD_TRANSFORMATION
+      - ONE_INGREDIENT_THREE_WAYS
+      - BUDGET_MEAL
+      - COOKING_EXPERIMENT
+  DOGS:
+    target_count: 10
+    formats:
+      - FUNNY_POV
+      - DOG_HAS_ONE_JOB
+      - DOG_CHOOSES
+      - WHOLESOME_MINI_STORY
+      - FICTIONAL_ADVENTURE

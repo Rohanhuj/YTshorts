@@ -1,0 +1,6 @@
+interface:
+  display_name: "Implement Shorts Phase"
+  short_description: "Build one verified automation phase"
+  default_prompt: "Use $implement-shorts-phase to implement the next bounded phase of the YouTube Shorts automation plan."
+policy:
+  allow_implicit_invocation: true

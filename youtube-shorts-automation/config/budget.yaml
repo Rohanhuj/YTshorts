@@ -1,0 +1,7 @@
+monthly_hard_limit_usd: 45.00
+daily_generation_limit_usd: 1.75
+per_video_target_usd: 0.50
+per_video_hard_limit_usd: 0.70
+max_image_attempts_per_scene: 2
+max_video_attempts_per_video: 2
+default_ai_video_seconds: 4

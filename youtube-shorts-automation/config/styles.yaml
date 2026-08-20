@@ -1,0 +1,8 @@
+canvas_width: 1080
+canvas_height: 1920
+frames_per_second: 30
+minimum_duration_seconds: 15
+maximum_duration_seconds: 35
+hard_maximum_duration_seconds: 59
+caption_safe_margin_pixels: 120
+default_font: DejaVu Sans

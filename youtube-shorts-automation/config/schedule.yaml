@@ -1,0 +1,9 @@
+timezone: America/Los_Angeles
+daily_slots:
+  - "07:00:00"
+  - "17:00:00"
+minimum_schedule_lead_hours: 12
+arm_cycle:
+  - [FOOD, COOKING]
+  - [DOGS, FOOD]
+  - [COOKING, DOGS]
