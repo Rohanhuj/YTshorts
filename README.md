@@ -5,8 +5,9 @@ across food comparisons, cooking transformations, and fictional/funny dog storie
 
 ## Current implementation
 
-Phase 0 establishes validated domain contracts, centralized state transitions, configuration,
-provider ports, deterministic mock providers, tests, and CI. It performs no paid calls, AWS
+Phases 0 and 1 establish validated domain contracts, deterministic mock providers, styled ASS
+caption generation, local FFmpeg fixture rendering, and strict FFprobe media validation. The
+test suite renders one 24-second fixture Short for every content arm without paid calls, AWS
 deployment, or YouTube upload.
 
 ## Local setup
@@ -36,7 +37,11 @@ The `.env` file is ignored by Git. Phase 0 does not require you to fill it in; k
 `make verify` runs formatting checks, linting, strict type checks, tests with branch coverage,
 a repository secret scan, and a deterministic local FFmpeg smoke render.
 
+The media integration tests generate temporary, silent 720x1280 H.264 MP4 files with burned-in
+captions for food, cooking, and dog drafts. Files are discarded after the tests; no generated
+binary media is committed.
+
 ## Next phase
 
-Phase 1 will implement deterministic captions, video assembly, FFprobe validation, and one
-fixture MP4 for each content arm.
+Phase 2 will add S3 and DynamoDB adapters, conditional job and publication-slot reservations,
+CloudFormation infrastructure, and GitHub OIDC documentation without deploying resources.
